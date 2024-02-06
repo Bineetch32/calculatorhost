@@ -1,0 +1,119 @@
+.mycalc{
+
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  width: 480px;
+  border-radius: 20px;
+  background-color: rgb(106, 0, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  text-align: center;
+  
+}
+
+.all-btn{
+  height: 400px;
+  width: 480px;
+  display: flex;
+}
+.all-btn-num{
+
+  display: flex;
+  width: 210px;
+  flex-wrap: wrap;
+}
+
+.all-btn-sign{
+
+  flex-direction:column;
+
+}
+.all-btn-num button{
+
+  background-color: white;
+  margin: 10px;
+  color: green;
+  font-size: 30px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+
+}
+
+.all-btn-sign button{
+
+background-color: yellow;
+margin: 10px;
+color: green;
+font-size: 40px;
+border-radius: 90px;
+width: 50px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 900;
+}
+
+.all-btn-sign button:hover{
+cursor: pointer;
+
+}
+
+.all-btn-num:hover{
+
+  cursor: pointer;
+  box-shadow: rgb(76, 73, 73);
+}
+
+.btn-extra{
+
+  display: flex;
+}
+
+.all-btn-extra button{
+
+  background-color: rgb(247, 209, 221);
+  margin: 10px;
+  color: rgb(7, 42, 7);
+  font-size: 17px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 1200px;
+}
+.all-clr-eql button{
+
+  background-color: rgb(170, 170, 161);
+  margin: 10px;
+  color: green;
+  font-size: 40px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+input{
+height: 90px;
+  width: 90%;
+  color: rgb(24, 23, 22);
+  margin: 10px 8px;
+  font-size: 45px;
+  border-radius: 15px;
+}

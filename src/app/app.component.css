@@ -1,0 +1,13 @@
+#c{
+    font-size: 100px;
+  
+   
+    color: #2e1212; /* Adjust the color as needed */
+    background-color: rgb(54, 245, 11);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    width: 100%;
+    text-align: center;
+}
